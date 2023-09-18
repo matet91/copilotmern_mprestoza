@@ -21,6 +21,11 @@ https://www.mongodb.com/mern-stack
 **What is Github Copilot?**
 "GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code." - wikipedia
 
+**What is Tailwindcss?**
+Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.
+
+https://tailwindcss.com/
+
 **Below are the guide references I used during the development:**
 
 Docker Compose in 6 minutes! Mongo, Express, React, Node (MERN) Application Tutorial - https://www.youtube.com/watch?v=0B2raYYH2fE
