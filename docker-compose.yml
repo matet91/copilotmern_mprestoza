@@ -1,0 +1,23 @@
+version: 2.17.3
+#create a the server for images reactapp, server, and mongodb
+services:
+  reactapp:
+    build: ./reactapp
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./reactapp:/usr/src/app
+    networks:
+      - mern-app
+  server:
+    build: ./server
+    ports:
+      - "3500:3500"
+    volumes:
+      - ./server:/usr/src/server
+    networks:
+      - mern-app
+#networks 
+networks:
+  mern-app:
+    driver: bridge
